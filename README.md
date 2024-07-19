@@ -20,11 +20,11 @@ Cette application permet aux utilisateurs de suivre et de gérer leurs dépenses
 
 Pour cloner et exécuter cette application, vous aurez besoin de [Git](https://git-scm.com) et de [Flutter](https://flutter.dev) installés sur votre machine.
 
-## Étapes :
+### Étapes :
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/depense-app.git
+   git clone https://github.com/IvinoDev/MDA_2024_Gestion_Depenses.git
    ```
 
 2. Accédez au répertoire du projet :
@@ -41,6 +41,9 @@ Pour cloner et exécuter cette application, vous aurez besoin de [Git](https://g
    ```bash
    flutter run
    ```
+
+## Maquette :
+https://www.figma.com/design/GE3bSfxMEgcWmV0c87Ahcc/MDA-2024-ATELIER-FLUTTER?node-id=0-1&t=orR66I4CQFbG4MLR-1
 
 
 
