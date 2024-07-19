@@ -1,7 +1,8 @@
 // Importations nécessaires
-// import 'package:flutter/material.dart'; // Commentée pour l'instant, voir ci-dessous
+//import 'package:flutter/material.dart'; // Commentée pour l'instant, voir ci-dessous
 
 // Importation de la page de login
+import 'package:depense/pages/home.dart';
 import 'package:depense/pages/login.dart'; // Assurez-vous que le chemin est correct
 
 import 'package:flutter/material.dart'; // Importation de Flutter Material
@@ -18,9 +19,10 @@ class DepenseApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Retourne un MaterialApp qui définit l'application
-    return MaterialApp(
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Depense App", // Titre de l'application
-      home: Accueil(), // Page d'accueil de l'application
+      home: Home(), // Page d'accueil de l'application
     );
   }
 }

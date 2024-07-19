@@ -1,4 +1,6 @@
+import 'package:depense/pages/home.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 // Définition de la page de login
 class Login extends StatefulWidget {
@@ -23,7 +25,7 @@ class _LoginState extends State<Login> {
             style: TextStyle(color: Colors.black)), // Titre de l'appBar
       ),
       // Ci-dessous commence le corps de la page de login
-      body: const Center(
+      body: Center(
         //D'abord u widget Center, pour centrer tout ce qui sera dans le coprs de la page
         child: Column(
           //Une colonne dans le center parcequ'il plusieurs elements qui sont arrange verticalement
@@ -35,6 +37,13 @@ class _LoginState extends State<Login> {
             SizedBox(
               height: 50,
             ), // Espace vertical de 50 pixels entre les éléments. deuxieme enfant de la colonne
+            TextButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return Home();
+                  }));
+                },
+                child: Text("Continuer"))
           ],
         ),
       ),
