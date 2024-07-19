@@ -1,6 +1,8 @@
-# Gestion des Dépenses - 4e Édition des MDA
+# Gestion des Dépenses 
 
-Bienvenue dans **Depense**, une application de gestion de dépenses développée dans le cadre de l'atelier Flutter de la 4e édition des MDA. 
+![alt text](https://github.com/IvinoDev/MDA_2024_Gestion_Depenses/blob/main/mda_gest_depenses_preview.png)
+
+Bienvenue dans **Gestion des Dépenses**, une application développée dans le cadre de l'atelier Flutter de la 4e édition des MDA. 
 Cette application permet aux utilisateurs de suivre et de gérer leurs dépenses quotidiennes et sources de revenus.
 
 ## Technologies Utilisées
