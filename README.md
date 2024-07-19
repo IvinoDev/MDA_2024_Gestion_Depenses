@@ -14,7 +14,6 @@ Cette application permet aux utilisateurs de suivre et de gérer leurs dépenses
 
 - Suivi des dépenses : Ajoutez, modifiez et supprimez vos dépenses facilement.
 - Catégorisation des dépenses : Organisez vos dépenses par catégories.
-- Visualisation des données : Visualisez vos dépenses sous forme de graphiques et de statistiques.
 - Authentification sécurisée : Inscription et connexion via Firebase Authentication.
 - **OTP pour mot de passe oublié** : Récupération de mot de passe via un code OTP envoyé par email ou SMS.
 
