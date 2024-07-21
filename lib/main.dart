@@ -2,14 +2,28 @@
 //import 'package:flutter/material.dart'; // Commentée pour l'instant, voir ci-dessous
 
 // Importation de la page de login
+import 'package:depense/base_de_donnees/firebase_manager.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:provider/provider.dart';
+import 'firebase_options.dart';
 import 'package:depense/pages/home.dart';
 import 'package:depense/pages/login.dart'; // Assurez-vous que le chemin est correct
 
 import 'package:flutter/material.dart'; // Importation de Flutter Material
 
 // Fonction principale main pour lancer l'application
-void main() {
-  runApp(const DepenseApp()); // Lance l'application Flutter
+void main() async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(
+        create: (_) => FirebaseManager(),
+      )
+    ],
+    child: const DepenseApp(),
+  ));
 }
 
 // Classe pour le MaterialApp
